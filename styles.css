@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* رنگ پس‌زمینه صفحه */
+}
+
+header {
+    background-color: #fff; /* رنگ پس‌زمینه بالای صفحه */
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* سایه برای هدر */
+}
+
+header .circle-logo {
+    display: inline-block;
+    border-radius: 50%; /* تغییر به شکل دایره */
+    overflow: hidden;
+}
+
+header .circle-logo img.top-logo {
+    width: 150px; /* اندازه لوگو بالا */
+    height: 150px;
+    object-fit: cover;
+}
+
+.main-content {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.village-background {
+    background-image: url('village-background.jpg'); /* تصویر پس‌زمینه با کیفیت روستا */
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* ارتفاع تصویر پس‌زمینه */
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.description-box {
+    background-color: #fff; /* رنگ پس‌زمینه کادر توضیحات */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* سایه برای کادر توضیحات */
+}
+
+footer {
+    background-color: #333; /* رنگ پس‌زمینه پایین صفحه */
+    text-align: center;
+    padding: 20px 0;
+    color: #fff; /* رنگ متن پایین صفحه */
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+footer .social-icons img {
+    width: 30px; /* اندازه لوگوهای شبکه‌های اجتماعی */
+    margin: 0 10px;
+}
+
+footer .circle-logo {
+    display: inline-block;
+    border-radius: 50%; /* تغییر به شکل دایره */
+    overflow: hidden;
+}
+
+footer .circle-logo img.bottom-logo {
+    width: 100px; /* اندازه لوگو پایین */
+    height: 100px;
+    object-fit: cover;
+}
+
+/* تنظیم موقعیت وسط آیکون‌های شبکه‌های اجتماعی زیر توضیحات */
+.social-icons {
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
